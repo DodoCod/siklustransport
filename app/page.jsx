@@ -131,20 +131,7 @@ export default function Home() {
         <div className="content-wrap">
 
 
-          <section className={"active-route active-route--" + activeRoute.color}>
-            <div className="active-route-heading">
-              <RouteIcon color={activeRoute.color} />
-              <div>
-                <p className="eyebrow">{activeRoute.eyebrow}</p>
-                <h2>{activeRoute.title}</h2>
-                <p>{activeRoute.description}</p>
-              </div>
-            </div>
-            <div className="active-route-time">
-              <span>JAM</span>
-              <strong>{activeRoute.timeLabel}</strong>
-            </div>
-          </section>
+
 
           <section className="filter-panel">
             <label className="field-stack field-stack--search">

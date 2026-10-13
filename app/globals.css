@@ -320,3 +320,7 @@ select {
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   font-size: 9px;
 }
+/* First content block after route summary removal. */
+.filter-panel {
+  margin-top: 0;
+}
